@@ -1,0 +1,965 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 11%;
+    left: -30%;
+    gap: 60px;
+    font-size: 10px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.811);
+}
+#nav i{
+    position: relative;
+    font-size: 18px;
+   background-color: rgba(0, 255, 255, 0.301);
+   padding: 8px 10px;
+   border-radius: 50%;
+}
+#nav1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8%;
+    left: 12%;
+    gap: 30px;
+    font-size: 10px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.811);
+}
+#h2{
+    position: relative;
+    left: 66%;
+    top: 2%;
+    /* background-color: rgb(252, 7, 122); */
+    width: 2%;
+    height: 4%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+img{
+    margin-left: 78%;
+    margin-top: -9%;
+    width: 20%;
+    height: 38%;
+}
+#img0{
+    position: relative;
+    font-size: 70px;
+    top: -89%;
+    left: 4%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+#main #img1{
+    position: relative;
+    width: 93%;
+    height: 100%;
+    left: -74.5%;
+    top: 20%;
+    object-fit: cover;
+    object-position: bottom;
+}
+#main #img2{
+    position: relative;
+    width: 43%;
+    height: 60%;
+    left: -80.5%;
+    top: 65%;
+}
+#main #img2:hover{
+    transform: scale(1.2);;
+}
+#main #img3{
+    position: relative;
+    width: 43%;
+    height: 60%;
+    left: -48%;
+    top: 20%;
+}
+#main #img3:hover{
+    transform: scale(1.2);
+}
+#main #img4{
+    position: relative;
+    width: 43%;
+    height: 60%;
+    left: -18.5%;
+    top: -18%;
+}
+#main #img4:hover{
+    transform: scale(1.2);
+}
+#main #cont1{
+    position: relative;
+    font-size: 65px;
+    top: -83%;
+}
+#main #cont2{
+    position: relative;
+    font-size: 15px;
+    top: -85%;
+    left: 93%;
+    color: #000000d9;
+    font-family: 'Courier New', Courier, monospace;
+}
+#nav3{
+    position: relative;
+    width: 0.5px;
+    height: 40%;
+    background-color: rgba(159, 137, 137, 0.247);
+    left: 37%;
+    top: -80%;
+}
+#nav4{
+    position: relative;
+    width: 0.5px;
+    height: 40%;
+    background-color: rgba(131, 125, 125, 0.145);
+    left: 65%;
+    top: -120%;
+}
+#main #cont3{
+    position: relative;
+    font-size: 15px;
+    top: -114%;
+    left: 3%;
+    color: #5655555c;
+    font-family: 'Courier New', Courier, monospace;
+}
+#main #cont6{
+    position: relative;
+    font-size: 30px;
+    top: -124%;
+    left: 8%;
+}
+#main #cont4{
+    position: relative;
+    font-size: 15px;
+    top: -117%;
+    left: 40%;
+    color: #5655555c;
+    font-family: 'Courier New', Courier, monospace;
+}
+#main #cont7{
+    position: relative;
+    font-size: 30px;
+    top: -129%;
+    left: 45%;
+}
+#main #cont5{
+    position: relative;
+    font-size: 15px;
+    top: -119.5%;
+    left: 68%;
+    color: #5655555c;
+    font-family: 'Courier New', Courier, monospace;
+}
+#main #cont8{
+    position: relative;
+    font-size: 30px;
+    top: -134%;
+    left: 76%;
+}
+#nav5{
+    position: relative;
+    width: 50%;
+    height: 80%;
+    /* background-color: red; */
+    /* background-image: url(/unnamed\ \(1\).jpg); */
+    left: 3%;
+    top: -100%;
+     /* background-size: cover; */
+    /* background-position: 20px,bottom; */ 
+    overflow: hidden;
+}
+#nav5 #img8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -78%;
+    top: 11.6%;
+    object-fit: cover;  
+}
+#nav5 #img8:hover{
+    transform: scale(1.2); 
+}
+#nav6{
+    position: relative;
+    width: 42%;
+    height: 50%;
+    /* background-color: red; */
+    left: 55%;
+    top: -180%;
+    overflow: hidden;
+}
+#nav6 #img81{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -78%;
+    top: 15.6%;
+    object-fit: cover;  
+    
+}
+#nav6 #img81:hover{
+    transform: scale(1.2);
+}
+#cont9{
+    position: relative;
+    font-size: 60px;
+    top: -238%;
+    left: 4%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+#cont10{
+    position: relative;
+    font-size: 15px;
+    top: -159%;
+    left: 4%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+#cont12{
+    position: relative;
+    font-size: 30px;
+    top: -167%;
+    left: 9%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cont11{
+    position: relative;
+    font-size: 15px;
+    top: -192%;
+    left: 57%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+#cont13{
+    position: relative;
+    font-size: 30px;
+    top: -203%;
+    left:62%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav7{
+    position: relative;
+    width: 60%;
+    height: 90%;
+    /* background-color: red; */
+    background-image: url(/unnamed.jpg);
+    left: 37%;
+    top: -140%;
+    background-size: cover;
+}
+#btn1{
+    position: relative;
+    padding: 15px 18px;
+    border-radius: 50%;
+    border: none;
+    top: 32%;
+    left: 10%;
+}
+#btn1:hover{
+    transform: scale(1.2);
+}
+#btn2{
+    position: relative;
+    padding: 15px 18px;
+    border-radius: 50%;
+    border: none;
+    top: 46%;
+    left: 33%;
+}
+#btn2:hover{
+    transform: scale(1.2);
+}
+#btn3{
+    position: relative;
+    padding: 15px 18px;
+    border-radius: 50%;
+    border: none;
+    top: 72%;
+    left: 18%;
+}
+#btn3:hover{
+    transform: scale(1.2);
+}
+#btn4{
+    position: relative;
+    padding: 15px 18px;
+    border-radius: 50%;
+    border: none;
+    top: 86%;
+    left: 70%;
+}
+#btn4:hover{
+    transform: scale(1.2);
+}
+#cont14{
+    position: relative;
+    font-size: 70px;
+    top: -233%;
+    left: 4%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont15{
+    position: relative;
+    font-size: 18px;
+    top: -230%;
+    left: 4%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont16{
+    position: relative;
+    font-size: 16px;
+    top: -226%;
+    left: 4%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont17{
+    position: relative;
+    font-size: 16px;
+    top: -164%;
+    left: 38%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont17:hover{
+    font-size: 20px;
+    
+    
+}
+#cont18{
+    position: relative;
+    font-size: 16px;
+    top: -162%;
+    left: 38%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont19{
+    position: relative;
+    font-size: 16px;
+    top: -160%;
+    left: 38%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont20{
+    position: relative;
+    font-size: 16px;
+    top: -158%;
+    left: 38%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont21{
+    position: relative;
+    font-size: 16px;
+    top: -177%;
+    left: 45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont22{
+    position: relative;
+    font-size: 16px;
+    top: -175%;
+    left: 45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont23{
+    position: relative;
+    font-size: 16px;
+    top: -173%;
+    left: 45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont24{
+    position: relative;
+    font-size: 16px;
+    top: -171%;
+    left: 45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont25{
+    position: relative;
+    font-size: 16px;
+    top: -190%;
+    left: 56%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont26{
+    position: relative;
+    font-size: 16px;
+    top: -188%;
+    left: 56%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont27{
+    position: relative;
+    font-size: 16px;
+    top: -186%;
+    left: 56%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#cont28{
+    position: relative;
+    font-size: 16px;
+    top: -184%;
+    left: 56%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#nav8{
+    position: relative;
+    width: 46%;
+    height: 70%;
+    /* background-color: red; */
+    left: 3%;
+    top: -160%;
+    overflow: hidden;
+}
+#nav8 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: -78%;
+    top: 12%;
+    background-size: cover;
+    background-position: top;
+}
+#nav8 img:hover{
+    transform: scale(1.2);
+}
+#nav8 h1{
+    position: relative;
+    font-size: 74px;
+    top: -60px;
+    left: -1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#nav9{
+    position: relative;
+    width: 46%;
+    height: 70%;
+    /* background-color: red; */
+    left: 51%;
+    top: -230%;
+    overflow: hidden;
+}
+#nav9 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    left: -78%;
+    top: 12%;
+}
+#nav9 img:hover{
+    transform: scale(1.2);
+}
+#nav9 h5{
+    position: relative;
+    font-size: 15px;
+    top: -30px;
+    left: 90%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.ns1{
+    position: absolute;
+    font-size: 12px;
+    top: 616%;
+    left: 3%;
+    color: grey;
+}
+.ns2{
+    position: absolute;
+    font-size: 30px;
+    top: 615%;
+    left: 10%;
+    color: rgb(15, 14, 14);
+    font-family: sans-serif;
+}
+.ns3{
+    position: absolute;
+    font-size: 12px;
+    top: 616%;
+    left: 51%;
+    color: grey;
+}
+.ns4{
+    position: absolute;
+    font-size: 30px;
+    top: 615%;
+    left: 58%;
+    color: rgb(15, 14, 14);
+    font-family: sans-serif;
+}
+#bitu1{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: -230vh;
+}
+.dishu1{
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    /* background-color: rgb(7, 132, 241); */
+    top: 35%;
+    left: 3%;
+    overflow: hidden;
+}
+.dishu1 #img82{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -78%;
+    top: 11.1%;
+    background-size: cover;
+    background-position: top;
+}
+.dishu1 #img82:hover{
+    transform: scale(1.1);
+}
+.dishu2{
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    /* background-color: rgb(7, 132, 241); */
+    top: 35%;
+    left: 35%;
+    overflow: hidden;
+}
+.dishu2 #img83{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -78%;
+    top: 11.1%;
+    background-size: cover;
+    background-position: top;
+}
+.dishu2 #img83:hover{
+    transform: scale(1.1);
+}
+.dishu3{
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    top: 35%;
+    /* background-color: rgb(9, 255, 0); */
+    left: 67%;
+    overflow: hidden;
+}
+.dishu3 #img84{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -78%;
+    top: 11.1%;
+    background-size: cover;
+    background-position: top;
+}
+.dishu3 #img84:hover{
+    transform: scale(1.1);
+}
+.pr0{
+    position: absolute;
+    font-size: 70px;
+    font-family: sans-serif;
+    top: 28%;
+    left: 5%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.911);
+}
+.pr1{
+    position: absolute;
+    font-size: 12px;
+    top: 90%;
+    left: 3%;
+    color: grey;
+}
+.pr2{
+    position: absolute;
+    font-size: 30px;
+    top: 89%;
+    left: 10%;
+    color: rgb(15, 14, 14);
+    font-family: sans-serif;
+}
+.pr3{
+    position: absolute;
+    font-size: 12px;
+    top: 90%;
+    left: 35%;
+    color: grey;
+}
+.pr4{
+    position: absolute;
+    font-size: 30px;
+    top: 89%;
+    left: 43%;
+    color: rgb(15, 14, 14);
+    font-family: sans-serif;
+}
+.pr5{
+    position: absolute;
+    font-size: 12px;
+    top: 90%;
+    left: 67%;
+    color: grey;
+}
+.pr6{
+    position: absolute;
+    font-size: 30px;
+    top: 89%;
+    left: 75%;
+    color: rgb(15, 14, 14);
+    font-family: sans-serif;
+}
+#bitu2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    top: -235vh;
+}
+.dishu4{
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    /* background-color: rgb(7, 132, 241); */
+    top: 24%;
+    left: 3%;
+    overflow: hidden;
+}
+.dishu4 #img86{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -78%;
+    top: 11.1%;
+    background-size: cover;
+    background-position: top;
+}
+.dishu4 #img86:hover{
+    transform: scale(1.1);
+}
+.dishu5{
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    /* background-color: rgb(7, 132, 241); */
+    top: 24%;
+    left: 35%;
+    overflow: hidden;
+}
+.dishu5 #img87{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -78%;
+    top: 11.1%;
+    background-size: cover;
+    background-position: top;
+}
+.dishu5 #img87:hover{
+    transform: scale(1.1);
+}
+.dishu6{
+    position: absolute;
+    width: 30%;
+    height: 50vh;
+    top: 24%;
+    /* background-color: rgb(9, 255, 0); */
+    left: 67%;
+    overflow: hidden;
+}
+.dishu6 #img88{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -78%;
+    top: 11.1%;
+    background-size: cover;
+    background-position: top;
+}
+.dishu6 #img88:hover{
+    transform: scale(1.1);
+}
+.m0{
+    position: absolute;
+    font-size: 60px;
+    top: 18%;
+    left: 3%;
+    font-family: sans-serif;
+    font-weight: 100;
+ }
+.m1{
+   position: absolute;
+   font-size: 30px;
+   top: 76%;
+   left: 3%;
+   font-family: sans-serif;
+   font-weight: 100;
+}
+.m2{
+    position: absolute;
+    font-size: 15px;
+    top: 83%;
+    left: 3%;
+    font-family: sans-serif;
+}
+.m3{
+    position: absolute;
+    font-size: 15px;
+    top: 94%;
+    left: 3%;
+    font-family: sans-serif;
+}
+.m4{
+    position: absolute;
+    font-size: 15px;
+    top: 83%;
+    left: 18%;
+    font-family: sans-serif;
+}
+.m5{
+    position: absolute;
+    font-size: 30px;
+    top: 76%;
+    left: 35%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.m6{
+    position: absolute;
+    font-size: 15px;
+    top: 83%;
+    left: 35%;
+    font-family: sans-serif;
+}
+.m7{
+    position: absolute;
+    font-size: 15px;
+    top: 94%;
+    left: 35%;
+    font-family: sans-serif;
+}
+.m8{
+    position: absolute;
+    font-size: 15px;
+    top: 83%;
+    left: 52%;
+    font-family: sans-serif;
+}
+.m9{
+    position: absolute;
+    font-size: 30px;
+    top: 76%;
+    left: 67%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.m10{
+    position: absolute;
+    font-size: 15px;
+    top: 83%;
+    left: 67%;
+    font-family: sans-serif;  
+}
+.m11{
+    position: absolute;
+    font-size: 15px;
+    top: 94%;
+    left: 67%;
+    font-family: sans-serif;
+}
+.m12{
+    position: absolute;
+    font-size: 15px;
+    top: 83%;
+    left: 83%;
+    font-family: sans-serif;
+}
+#bitu3{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    top: -235vh;
+}
+.cir{
+    position: absolute;
+    width: 2%;
+    height: 4vh;
+    background-color: hotpink;
+    top: 30%;
+    left: 3%;
+    border-radius: 50%;
+}
+#bitu3 h1{
+    position: absolute;
+    font-size: 25px;
+    top: 29%;
+    left: 6%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#bitu3 h6{
+    position: absolute;
+    font-size: 12px;
+    top: 68%;
+    left: 3%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#bitu3 h4{
+    position: absolute;
+    font-size: 15px;
+    top: 72%;
+    left: 3%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#bitu3 #email{
+    position: absolute;
+    font-size: 15px;
+    top: 72%;
+    left: 7%;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: none;
+}
+#bitu3 #input{
+    position: absolute;
+    font-size: 25px;
+    top: 71.5%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#phase1{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 65%;
+    left: 35%;
+    gap: 15px;
+    font-family: sans-serif;
+}
+#phase1 a{
+    color: black;
+    text-decoration: none;
+}
+#phase1 a:hover{
+    color: hotpink;
+}
+#phase2{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 45.2%;
+    left: 50%;
+    gap: 15px;
+    font-family: sans-serif;
+}
+#phase2 a{
+    color: black;
+    text-decoration: none;
+}
+#phase2 a:hover{
+    color: hotpink;
+}
+#phase3{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 25.5%;
+    left: 63%;
+    gap: 15px;
+    font-family: sans-serif;
+}
+#phase3 a{
+    color: black;
+    text-decoration: none;
+}
+#phase3 a:hover{
+    color: hotpink;
+}
+#phase4{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 6%;
+    left: 84%;
+    gap: 15px;
+    font-family: sans-serif;
+}
+#phase4 a{
+    color: black;
+    text-decoration: none;
+}
+#phase4 a:hover{
+    color: hotpink;
+}
+#bitu5{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-color: hotpink;
+    top: -240vh;
+}
+#bitu5 h5{
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+    left: 35%;
+    top: 25%;
+}
+#bitu5 #mgi{
+    position: relative;
+    width: 15%;
+    height: 30vh;
+    left: -75%;
+    top: 80%;
+}
+
